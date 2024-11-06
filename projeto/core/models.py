@@ -5,7 +5,7 @@ from django.db import models
 # Atualizar a data somente quando criar algo...
 
 class TimeStampedModel(models.Model):
-    created = models.DateTimeFIeld(
+    created = models.DateTimeField(
         'Criado em: ',
         auto_now_add=True,
         auto_now=False
